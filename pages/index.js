@@ -9,7 +9,7 @@ const Home = () => {
         <Wrapper className="h-screen">
            <div>
                 <h1 className="text-center text-4xl font-bold tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
-                    <span className="block">Hi, I'm James Kubica</span>
+                    <span className="block">Hi, I&apos;m James Kubica</span>
                     <span className="block text-color-1 text-4xl mt-2">Full Stack Web Developer</span>
                 </h1>
 
