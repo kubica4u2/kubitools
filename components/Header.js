@@ -13,7 +13,7 @@ function classNames(...classes) {
 
 const Header = () => {
     return (
-        <Disclosure as="nav" className="relative bg-gray-800 z-50">
+        <Disclosure as="nav" className="bg-gray-800 z-[999] absolute left-0 top-0 right-0">
             {({ open }) => (
                 <>
                     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -52,15 +52,30 @@ const Header = () => {
                                 </div>
                             </div>
                             <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                                <Link href="/contact">
+                                <a href="tel:2248143594" className="flex items-center mr-6">
                                     <button
                                         type="button"
-                                        className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                                        className="md:hidden rounded-full bg-gray-800 p-1 text-white hover:text-color-1 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                                     >
-                                        <span className="sr-only">View notifications</span>
-                                        <BellIcon className="h-6 w-6" aria-hidden="true" />
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+                                        </svg>
+
+
                                     </button>
-                                </Link>
+                                    <span className="text-white hidden md:inline-block hover:text-color-1">(224) 814-3594</span>
+                                </a>
+                                <a href="mailto:kubica4u2@gmail.com">
+                                    <button
+                                        type="button"
+                                        className="rounded-full bg-gray-800 p-1 text-white hover:text-color-1 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                                    >
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                                        </svg>
+
+                                    </button>
+                                </a>
                             </div>
                         </div>
                     </div>

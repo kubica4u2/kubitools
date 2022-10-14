@@ -10,7 +10,7 @@ const tabOptions = [
     {
         name: "Scottsdale Mint B2B",
         image: '/img/scottsdealers.jpg',
-        content: 'Scottsdale Mint Dealer portal is a B2B web application for their clients to easily bulk order gold or silver with real time pricing. I have built the UI so customers can easily search, filter, and organize products they\'re acquiring. Also created custom elementor widgets so the client can easily customize the page as they see fit.',
+        content: 'Scottsdale Mint Dealer portal is a B2B web application for their clients to easily bulk order gold or silver with real time pricing. I have built the UI so customers can easily search, filter, and organize products they\'re acquiring. Also created custom elementor widgets so the client can easily customize their web pages as they see fit.',
         url: 'https://dealers.scottsdalemint.com/',
         tech: [
             'Wordpress',
@@ -47,7 +47,7 @@ const tabOptions = [
         name: "Rival Arms",
         image: '/img/rivalarms.jpg',
         url: 'https://www.rival-arms.com/',
-        content: 'Rival Arms is a ecommerce website built on bigcommerce. I created a custom theme using the bigcommerce stencil framework. Sliced design into new theme. Created a custom api endpoint to receive custom data that cant be added into the bigcommerce admin.',
+        content: 'Rival Arms is a ecommerce website built on bigcommerce. I created a custom theme using the bigcommerce stencil framework. Sliced design into new theme. Created custom api endpoints to receive data that cannot be added into the bigcommerce admin.',
         tech: [
             'Bigcommerce',
             'Headless',
@@ -59,7 +59,7 @@ const tabOptions = [
         name: "Truglo",
         image: '/img/truglo.jpg',
         url: 'https://www.truglo.com/',
-        content: 'Truglo is a ecommerce website built on bigcommerce. I created a custom theme using the bigcommerce stencil framework. Sliced design into new theme. Created a custom api endpoint to receive custom data that cant be added into the bigcommerce admin.',
+        content: 'Truglo is a ecommerce website built on bigcommerce. I created a custom theme using the bigcommerce stencil framework. Sliced design into new theme. Created custom api endpoints to receive data that cannot be added into the bigcommerce admin.',
         tech: [
             'Bigcommerce',
             'Headless',
