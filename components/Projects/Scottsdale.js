@@ -22,10 +22,12 @@ const Scottsdale = ({obj}) => {
                 </div>
             </div>
 
-            <div className="text-white flex py-6">
-                {obj.tech.map(item => {
+            <div className="text-white flex justify-between md:justify-start py-6">
+
+                {obj.tech.map((item, count) => {
+
                     return (
-                        <p key={item} className="mr-4 font-bold lg:text-2xl">{item} <span className="hidden md:inline">-</span> </p>
+                        <><p key={count} className="font-bold lg:text-2xl">{item}</p><span className={`mx-4 font-bold lg:text-2xl hidden md:inline ${obj.tech.length === count + 1 ? 'md:hidden': ''}`}>-</span></>
                     )
                 })}
             </div>

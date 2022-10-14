@@ -39,8 +39,10 @@ const tabOptions = [
         content: 'Scentlok.com is an  ecommerce website built on magento 2. I took a custom photoshop design and sliced it into the CMS. Configured products. Added custom widgets and attributes to the admin panel so client can easily customize webpages and sections on the product display page.',
         url: 'https://www.scentlok.com/',
         tech: [
-            'Magento',
+            'Magento 2',
             'Bootstrap',
+            'ES6',
+            'PHP'
         ]
     },
     {
