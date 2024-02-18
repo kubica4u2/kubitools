@@ -81,7 +81,7 @@ const Header = () => {
                                     </button>
                                 </a>
 
-                                <a href="mailto:kubitools.com">
+                                <a href="mailto:james@kubitools.com">
                                     <button
                                         type="button"
                                         className="rounded-full bg-gray-800 p-1 text-white hover:text-color-1 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
